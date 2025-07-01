@@ -15,13 +15,14 @@ public class SimpleMath {
     }
 
     public Double division(Double firstNumber, Double secondNumber) {
+        if (secondNumber.equals(0D)) throw new ArithmeticException("Cannot divide by zero!");
         return firstNumber / secondNumber;
     }
 
     public Double mean(Double firstNumber, Double secondNumber) {
         return (firstNumber + secondNumber) / 2;
     }
-    
+
     public Double squareRoot(Double number) {
         return (Double) Math.sqrt(number);
     }
