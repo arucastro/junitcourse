@@ -6,7 +6,7 @@ import org.junit.jupiter.api.*;
 // Given / Arrange
 // When / Act
 // Then / Assert
-
+@Order(0)
 class SimpleMathTest {
 
     SimpleMath math;
